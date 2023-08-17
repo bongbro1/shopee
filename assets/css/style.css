@@ -101,7 +101,7 @@ a {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 15px 16px;
+    padding: 16px;
     font-size: 15px;
     cursor: pointer;
 }
@@ -431,7 +431,6 @@ div#body {
 
 .content .nav_search_box-shop {
     position: relative;
-    z-index: 1;
     display: inline-block;
     width: 25%;
     margin-left: 4px;
@@ -450,6 +449,7 @@ div#body {
     background-color: #fff;
     width: 100%;
     position: absolute;
+    z-index: 1;
     top: 100%;
     box-shadow: 0 5px 10px #ccc;
     display: none;
